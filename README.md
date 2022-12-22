@@ -12,6 +12,8 @@ Para praticar, basta seguir o conteúdo da apostila: SQL da Teoria à Prática.p
 ```
 Usuário da Máquina Virutal: web
 Senha do usuário da VM: web
+
+Senha do bando de dados: web
 ```
 
 Caso queira instalar o banco já populado, basca importar o arquivo cursobdii.sql para o MySQL.
@@ -31,5 +33,20 @@ Caso queira instalar o banco já populado, basca importar o arquivo cursobdii.sq
 ![](./banco1.png)
 
 
-![](./banco2.png)
+
+## Exemplo de Consulta:
+
+```
+
+SELECT n.cod_cliente, c.nome_cliente, SUM(n.valor_total) as TOTAL 
+FROM notaprod n 
+INNER JOIN clientes c USING(cod_cliente) 
+GROUP BY cod_cliente 
+HAVING SUM(n.valor_total) >=100000 
+ORDER BY TOTAL;
+
+```
+Saída esperada
+
+![](./banco3.png)
 
