@@ -13,7 +13,9 @@ Para praticar, basta seguir o conteúdo da apostila: SQL da Teoria à Prática.p
 Usuário da Máquina Virutal: web
 Senha do usuário da VM: web
 
-Senha do bando de dados: web
+Usuário do banco de dados: root
+Senha do banco de dados: web
+
 ```
 
 Caso queira instalar o banco já populado, basca importar o arquivo cursobdii.sql para o MySQL.
