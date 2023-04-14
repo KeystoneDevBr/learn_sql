@@ -7,7 +7,7 @@ Como aprender SQL praticando?
 
 Nesse tutorial, elaborei um banco de dados já populado, para ajudá-lo a compreender melhor os conceitos básicos de SQL.
 
-Para praticar, basta seguir o conteúdo da apostila: SQL DA TEORIA À PRÁTICA.pdf, e ir praticando as consultas junto com o banco de dados, já populado e instalado na Máquina Virutal, [Ubuntu_server_mysql.zip](https://drive.google.com/file/d/1ZrDUC5wYp51XDNdHcd_h0J7yyMpi2Ntx/view?usp=share_link) (compatível com Virutal Box 6.1).
+Para praticar, basta seguir o conteúdo da apostila: SQL DA TEORIA À PRÁTICA.pdf, e ir praticando as consultas junto com o banco de dados, já populado e instalado na Máquina Virutal, [Ubuntu_server_mysql.zip](https://drive.google.com/file/d/1ZrDUC5wYp51XDNdHcd_h0J7yyMpi2Ntx/view?usp=share_link) (compatível com Virtual Box 6.1 ou superior).
 
 ```
 Usuário da Máquina Virutal: web
