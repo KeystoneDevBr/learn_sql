@@ -24,7 +24,7 @@ Caso queira instalar o banco já populado, basta importar o arquivo cursobdii.sq
 ![](./mer.png)
 
 
-# Máquina Virutal
+# Máquina Virtual
 ![](./vm1.png)
 
 ![](./vm2.png)
